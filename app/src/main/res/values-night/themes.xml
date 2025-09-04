@@ -1,7 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.LAB_WEEK_02_B" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <!-- Base app theme (Material3) -->
+    <style name="Base.Theme.LAB_WEEK_02" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- (opsional) warna kustom, bisa dibiarkan default Material3 -->
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.LAB_WEEK_02" parent="Base.Theme.LAB_WEEK_02" />
+
+    <!-- Custom styles -->
+    <style name="text_input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="text_display">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="screen_margin">
+        <item name="android:layout_margin">12dp</item>
     </style>
 </resources>
