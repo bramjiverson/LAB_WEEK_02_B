@@ -10,4 +10,10 @@
     <string name="color_code_result_message">Color code: %1$s</string>
     <string name="invalid_color">Invalid color code: %1$s</string>
     <string name="no_color">No color code provided</string>
+
+    <!-- Error message for MainActivity -->
+
+    <string name="color_code_input_invalid">Invalid color code! Please enter a valid hex code.</string>
+    <string name="color_code_input_wrong_length">Color code must be 6 characters long!</string>
+
 </resources>
